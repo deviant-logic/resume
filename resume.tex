@@ -131,35 +131,29 @@
 \pagebreak
 \section{Details On Recent Projects}
 
-\cvitem{Chronicle Time Series Database}{Designed and implemented a lightweight
-  event processing/time series database for logging, querying and archiving
-  dashboard alerts.  While this work remains proprietary, the library which
-  undergirds its durable storage and indexing system is open source and
-  available at \url{http://hackage.haskell.org/package/arena}.}
+\cvitem{Arena Durable Storage and Indexing Library (October 2015--May 2016)}{While the work on
+  Chronicle remains proprietary, the library which undergirds its durable storage and indexing
+  system is open source and available at \url{http://hackage.haskell.org/package/arena}.}
 
-\cvitem{Skete: An Approach to Distributed Package Management}{Skete is ongoing
-  work to develop a distributed package management system---effectively a
-  ``Hackage meets Git''.  We provide both a supporting library
-  (\url{http://code.xkrd.net/skete/skete}) and a Hackage-specific instantiation
-  (\url{http://code.xkrd.net/skete/skete-haskell}).  Currently, we actually use
-  Git as our storage backend.  This provided an opportunity to implement a
-  pure-Haskell library for interacting with Git repositories
-  (\url{http://code.xkrd.net/skete/miss}).}
-
-\cvitem{Fastly API Bindings}{Implemented bindings to the Fastly HTTP API.  This
-  was a quick implementation of a large (and somewhat persnickety) API.  The
-  code is available at \url{http://code.xkrd.net/alec/fastly}, and induced a
-  useful utility library for JSON processing
+\cvitem{Fastly API Bindings (October 2015)}{Implemented bindings to the Fastly HTTP API.  This was a
+  quick implementation of a large (and somewhat persnickety) API.  The code is available at
+  \url{http://code.xkrd.net/alec/fastly}, and induced a useful utility library for JSON processing
   (\url{http://hackage.haskell.org/package/aeson-filthy}).}
 
-\cvitem{Edge Device Characterization}{Designed and implemented
-  Akamai's high-performance device characterization capability, which
-  is the technology behind two products and several different in-house
-  data analysis systems.  EDC is capable of identifying over 100,000
-  user agents per second while running in 15MB of core.  It has also
-  been running bug free for years.  Main implementation: C++,
-  Lex, Protocol Buffers.  Supporting software: C, Haskell, Ruby,
-  Prolog, Make.}
+\cvitem{Chronicle Time Series Database (July 2015--May 2016)}{Designed and implemented a lightweight
+  event processing/time series database for logging, querying and archiving dashboard alerts.}
+
+\cvitem{Pure Haskell Git Library (May 2015--Present)}{Because we wanted Skete to be reasonably
+  portable, we wanted to avoid depending on bindings to @libgit2@ or similar.  This afforded me the
+  chance to implement a pure-Haskell library for interacting with Git repositories
+  (\url{http://code.xkrd.net/skete/miss}).}
+
+\cvitem{Skete: An Approach to Distributed Package Management (December 2014--April 2015,
+  ongoing)}{Skete is ongoing work to develop a distributed package management system---effectively a
+  ``Hackage meets Git''.  We provide both a supporting library
+  (\url{http://code.xkrd.net/skete/skete}) and a Hackage-specific instantiation
+  (\url{http://code.xkrd.net/skete/skete-haskell}).  Currently, we actually use Git as our storage
+  backend.}
 
 \cvitem{Resource Timing Analytics Framework}{Designed and initiated
   implementation (it's work in progress) of a system for ad hoc
@@ -177,6 +171,15 @@
   reports analyzing detailed breakdowns of web page performance.  It's
   withstood 2 (soon to be 3) back-end architectures so far.  Relevant
   keywords: Big Data, REST, query languages, JSON, BigTable.}
+
+\cvitem{Edge Device Characterization}{Designed and implemented
+  Akamai's high-performance device characterization capability, which
+  is the technology behind two products and several different in-house
+  data analysis systems.  EDC is capable of identifying over 100,000
+  user agents per second while running in 15MB of core.  It has also
+  been running bug free for years.  Main implementation: C++,
+  Lex, Protocol Buffers.  Supporting software: C, Haskell, Ruby,
+  Prolog, Make.}
 
 \section{Education}
 
