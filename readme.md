@@ -1,1 +1,2 @@
-[![PDF Status](https://www.sharelatex.com/github/repos/deviant-logic/resume/builds/latest/badge.svg)](https://www.sharelatex.com/github/repos/deviant-logic/resume/builds/latest/output.pdf)
+Available [here](http://latex.aslushnikov.com/compile?git=https://github.com/deviant-logic/resume&target=resume.tex), kindly provided via <http://latex.aslushnikov.com/>.
+
